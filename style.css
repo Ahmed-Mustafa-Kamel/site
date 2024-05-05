@@ -84,7 +84,7 @@ h5 {
 }
 /*  */
 
-/* **** img */
+/* **** my img */
 #Home img{
 position: absolute;
 height:inherit;
@@ -101,7 +101,7 @@ height:inherit;
     }
 @keyframes infAnim {
     0% {
-        /* rotate: 15deg; */
+        rotate: 15deg;
         opacity: 50%;
     }
 
@@ -110,7 +110,7 @@ height:inherit;
     }
 
     20% {
-        /* rotate: 10deg; */
+        rotate: 10deg;
     }
 
     30% {
@@ -118,7 +118,7 @@ height:inherit;
     }
 
     40% {
-        /* rotate: 15deg; */
+        rotate: 15deg;
     }
 
     50% {
@@ -126,7 +126,7 @@ height:inherit;
     }
 
     60% {
-        /* rotate: -5deg; */
+        rotate: -5deg;
 
     }
 
@@ -135,7 +135,7 @@ height:inherit;
     }
 
     80% {
-        /* rotate: 0deg; */
+        rotate: 0deg;
         
     }
 
@@ -144,7 +144,7 @@ height:inherit;
     }
 
     100% {
-        /* rotate: 15deg; */
+        rotate: 15deg;
         opacity: 50%;
         
     }
