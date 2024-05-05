@@ -117,7 +117,7 @@ height:inherit;
         transform: scale(0.95);
         opacity: 1;
         /* rotate: 10deg; */
-        filter: blur(0px);
+        filter: blur(1px);
     }
     60%{
         transform: scale(0.9);
