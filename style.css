@@ -507,3 +507,35 @@ footer {
 }
 
 
+
+
+
+
+
+/*-------------------------------------- loader----------------- */
+#loader{
+    background: var(--bgColor-1) no-repeat center center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#circleLoader{
+    height: 50%;
+    animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+.loaderhidden{
+display: none;
+}
+
