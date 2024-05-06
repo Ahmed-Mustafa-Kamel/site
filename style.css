@@ -95,10 +95,43 @@ height:inherit;
     height: 350px;
     width: 350px;
 }
+#mypic{
+            /* filter: drop-shadow(0px -2px 5px var(--primaryColor)); */
+                animation: mypic 4s infinite;
+}
+@keyframes mypic {
+    0% {
+        filter: drop-shadow(0px -2px 5px var(--secondaryColor));
+    }
 
+    20% {
 
+        filter: drop-shadow(0px 0px 0px var(--secondaryColor));
+    }
+
+    40% {
+
+        filter: drop-shadow(0px -2px 5px var(--secondaryColor));
+    }
+
+    60% {
+
+        filter: drop-shadow(0px 0px 0px var(--secondaryColor));
+    }
+
+    80% {
+        filter: drop-shadow(0px -2px 5px var(--secondaryColor));
+    }
+
+    100% {
+        filter: drop-shadow(0px -2px 5px var(--secondaryColor));
+    }
+}
+
+/* circle */
 #circle{
         animation: infAnim 4s  infinite;
+        filter: drop-shadow(0px -2px 5px var(--secondaryColor));
     }
 @keyframes infAnim {
     0%{
@@ -106,38 +139,44 @@ height:inherit;
         opacity: 0.2;
         rotate: 0deg;
         filter: brightness(200%);
-        filter: blur(1px);
+        filter: blur(10px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
     20%{
         transform: scale(0.9);
         opacity: 1;
         rotate: 1deg;
         filter: blur(0px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
     40%{
         transform: scale(0.95);
         opacity: 1;
         /* rotate: -1deg; */
-        filter: blur(1px);
+        filter: blur(10px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
     60%{
         transform: scale(0.9);
         opacity: 0.2;
         rotate: 2deg;
         filter: blur(0px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
     80% {
-        transform: scale(0.95);
+        transform: scale(0.9);
         opacity: 1;
         rotate: -3deg;
-        filter: blur(1px);
+        filter: blur(10px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
     
     100%{
         transform: scale(0.95);
         opacity: 0.2;
         rotate: 0deg;
-        filter: blur(1px);
+        filter: blur(10px);
+        filter: drop-shadow(0px 0px 20px var(--secondaryColor));
     }
 }
 
