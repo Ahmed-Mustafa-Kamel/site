@@ -16,7 +16,7 @@
 }
 * {
     color: var(--lightColor);
-    font-weight: 900;
+    font-weight: 700;
 
 }
 /* nav */
@@ -293,7 +293,7 @@ p {
 }
 
 .skill img {
-    width: 80%;
+    width: 50%;
 }
 
 .skill {
@@ -304,12 +304,13 @@ p {
     padding: 10px;
     border-radius: 15%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #skills-img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 
 /* ---------------------services------------ */
@@ -358,11 +359,11 @@ p {
     flex-direction: column;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-
-}
-
-.icon {
-    /* margin: auto; */
+    
+    }
+    
+    .icon {
+    
     width: 100%;
     height: 70px;
     max-width: 70px;
@@ -374,20 +375,18 @@ p {
     transition: all 0.8s ease;
     background-position: 0px;
     background-size: 200px;
-}
-
-.Ccard .title {
+    }
+    
+    .Ccard .title {
     width: 100%;
     margin: 0;
     text-align: center;
-    /* margin-top: 30px; */
     color: white;
     font-weight:900;
     text-transform: uppercase;
-    /* letter-spacing: 4px; */
-}
-
-.Ccard .text {
+    }
+    
+    .Ccard .text {
     width: 90%;
     margin: 0 auto;
     font-size: 13px;
@@ -399,22 +398,22 @@ p {
     opacity: 0;
     max-height: 0;
     transition: all 0.3s ease;
-}
-
-.Ccard:hover {
+    }
+    
+    .Ccard:hover {
     height: 300px;}
-
-.Ccard:hover .text {
+    
+    .Ccard:hover .text {
     transition: all 0.1s ease;
     opacity: 1;
     max-height: 40px;
     transform: translateY(-15px);
-}
-
-.Ccard:hover .icon {
+    }
+    
+    .Ccard:hover .icon {
     background-position: -120px;
     transition: all 0.3s ease;
-}
+    }
 
 /* social media card */
 .so-card svg {
