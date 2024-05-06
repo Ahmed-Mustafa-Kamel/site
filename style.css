@@ -192,7 +192,7 @@ button {
     font-weight: 600;
     letter-spacing: 2px;
     background: transparent;
-    color: #fff;
+    color: var(--bgColor-3);
     overflow: hidden;
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: all 0.2s ease-in;
@@ -487,7 +487,7 @@ p {
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: whitesmoke;
+    color: var(--bgColor-2);
     font-family: 'Poppins', sans-serif;
         font-size: 24px;
     font-weight: 700;
