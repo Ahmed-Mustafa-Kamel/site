@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // resume button that go to local document
 document.getElementById("resume").addEventListener("click", function () {
-    window.open("/Resume/Ahmed Mustafa.pdf")
+    window.open("/Resume/Ahmed Mustafa .pdf")
 });
 
