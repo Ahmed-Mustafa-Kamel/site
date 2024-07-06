@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik+Glitch+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 :root {
   --primaryColor: #60cfff;
   --secondaryColor: #009add;
@@ -33,8 +34,7 @@
 }
 * {
   color: var(--lightColor);
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
 }
 
