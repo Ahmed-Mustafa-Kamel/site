@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Allerta&display=swap");
 :root {
   --primaryColor: #60cfff;
   --secondaryColor: #009add;
@@ -34,6 +33,7 @@
 }
 * {
   color: var(--lightColor);
+  font-family: "Allerta", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
@@ -44,10 +44,33 @@ nav {
 }
 #navLogo {
   margin-left: 11%;
+  mix-blend-mode: lighten;
 }
 
-a:hover {
-  color: #151515;
+#link1,
+#link2,
+#link3,
+#link4 {
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-size: 1.3rem;
+}
+
+#link1:hover {
+  transform: scale(1.1);
+  color: var(--primaryColor);
+}
+#link2:hover {
+  transform: scale(1.1);
+  color: var(--primaryColor);
+}
+#link3:hover {
+  transform: scale(1.1);
+  color: var(--primaryColor);
+}
+#link4:hover {
+  transform: scale(1.1);
+  color: var(--primaryColor);
 }
 
 /* home */
