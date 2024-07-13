@@ -326,6 +326,9 @@ button:active {
   #navLogo {
     margin-left: 0%;
   }
+  #test {
+    margin-right: auto;
+  }
 }
 /*------------------------Skills--------------------*/
 #skills {
